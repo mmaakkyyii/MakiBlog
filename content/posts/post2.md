@@ -1,8 +1,9 @@
 ---
 title: "画像テスト"
 date: 2021-07-23T13:14:21+09:00
-draft: true
+draft: false
 ---
 # 画像のテストをするよ
-![img](icon.jpg)
+![img](../icon.jpg)
+↑
 見れますか？
