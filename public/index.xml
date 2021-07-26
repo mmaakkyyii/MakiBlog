@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mmaakkyyii site</title>
+    <link>http://mmaakkyyii.com/</link>
+    <description>Recent content on mmaakkyyii site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Jul 2021 13:14:21 +0900</lastBuildDate><atom:link href="http://mmaakkyyii.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>画像テスト</title>
+      <link>http://mmaakkyyii.com/posts/post2/</link>
+      <pubDate>Fri, 23 Jul 2021 13:14:21 +0900</pubDate>
+      
+      <guid>http://mmaakkyyii.com/posts/post2/</guid>
+      <description>画像のテストをするよ ↑ 見れますか？</description>
+    </item>
+    
+    <item>
+      <title>Post1</title>
+      <link>http://mmaakkyyii.com/posts/post1/</link>
+      <pubDate>Fri, 23 Jul 2021 01:10:49 +0900</pubDate>
+      
+      <guid>http://mmaakkyyii.com/posts/post1/</guid>
+      <description>test none</description>
+    </item>
+    
+  </channel>
+</rss>

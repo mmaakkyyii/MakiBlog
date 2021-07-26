@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://mmaakkyyii.com/</loc>
+    <lastmod>2021-07-23T13:14:21+09:00</lastmod>
+  </url><url>
+    <loc>http://mmaakkyyii.com/posts/</loc>
+    <lastmod>2021-07-23T13:14:21+09:00</lastmod>
+  </url><url>
+    <loc>http://mmaakkyyii.com/posts/post2/</loc>
+    <lastmod>2021-07-23T13:14:21+09:00</lastmod>
+  </url><url>
+    <loc>http://mmaakkyyii.com/posts/post1/</loc>
+    <lastmod>2021-07-23T01:10:49+09:00</lastmod>
+  </url><url>
+    <loc>http://mmaakkyyii.com/categories/</loc>
+  </url><url>
+    <loc>http://mmaakkyyii.com/tags/</loc>
+  </url>
+</urlset>
