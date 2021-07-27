@@ -4,9 +4,28 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Post1 | mmaakkyyii site</title>
+    <title>ブログをつくった | mmaakkyyii site</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="test none">
+    <meta name="description" content="はじめに こんにちはマッキーです。ブログ記事を乗せるためのサイトを作りました。
+2年くらい前にRaspberry piでブログサーバを立てていたけど放置してたのですが、もう一度記事が書けそうな場所が欲しくなったのでまたサイトを作りました。
+せっかくmmaakkyyii.comというドメインを取っていたけど何もしないのも流石にもったいないのでまた復活させます。
+やりたかったこと 以前使っていたRaspberry Pi B&#43;を動かそうとしたところUSBポートが一部使えなかったりして、今後使うのも微妙な気がしたので、最近買って放置していたRaspberry Pi Zero上でブログサーバを立てます。
+以前はWordPressを使っていたのですが、今回は軽くて使いやすそうだったのでHugoというフレームワークを使ってサイトを作ります。
+また前回は記事がローカルに保存されていたため、記事の復旧ができなかったりしたので、記事自体はGitHub上に保存するようにします。
+できたもの ・このサイト
+・github
+まだできてないこと・やりたいこと 記事の更新方法 今はラズパイ上のhugoフォルダ内をいじることで記事が更新されるようになっている。
+これをgithubに記事をpushした時にすぐラズパイ側でも記事が更新されるようにしたいGitHub Actionというものをつかえばできそうなのでこれを使う
+見栄え アイコンとかテーマも今回はanankeというものを使ったけどデフォルトのままなので今後いじりたい
+ページの上の方とかにメニューバー的なもの タグみたいなので記事の分類とかできるようにしたい
+記事 書こう!
+　作業ログ 作業ログは今回ブログを作ろうと思った理由の一つで、いままでこういった作業の記録を残していなかったため無駄な時間を使うことがあったりしたので自分用に記録を残していくのだ！
+以下ユーザーは/home/makyi
+Goのインストール 今回サーバにするPCはRaspberry Pi ZeroでCPUのアーキテクチャによってダウンロードするべきファイルが違うらしい。今回のラズパイzeroではarmv6
+ダウンロード curl -O https://dl.google.com/go/go1.16.6.linux-armv6l.tar.gz SHA256チェックサム sha256sum go1.16.6.linux-armv6l.tar.gz これで b1ca342e81897da3f25da4e75ae29b267db1674fe7222d9bfc4c666bcf6fce69 が出力されればおｋ https://golang.org/dl/
+ファイルの展開 sudo tar -C /usr/local -xzf go1.16.6.linux-armv6l.tar.gz パスの追加 .bashrcの最後に
+export PATH=$PATH:/usr/local/go/bin を追加
+hugoのインストール git clone https://github.com/gohugoio/hugo.git cd hugo go install --tags extended 最初SSH接続した状態でインストールをしようとしたが、途中で止まったりした。 しかしSSHではなく直接ディスプレイをつないでインストールしたところ問題なくインストールができた。理由は良く分からなかった。">
     <meta name="generator" content="Hugo 0.87.0-DEV" />
     
     
@@ -26,20 +45,77 @@
 
     
     
-    <meta property="og:title" content="Post1" />
-<meta property="og:description" content="test none" />
+    <meta property="og:title" content="ブログをつくった" />
+<meta property="og:description" content="はじめに こんにちはマッキーです。ブログ記事を乗せるためのサイトを作りました。
+2年くらい前にRaspberry piでブログサーバを立てていたけど放置してたのですが、もう一度記事が書けそうな場所が欲しくなったのでまたサイトを作りました。
+せっかくmmaakkyyii.comというドメインを取っていたけど何もしないのも流石にもったいないのでまた復活させます。
+やりたかったこと 以前使っていたRaspberry Pi B&#43;を動かそうとしたところUSBポートが一部使えなかったりして、今後使うのも微妙な気がしたので、最近買って放置していたRaspberry Pi Zero上でブログサーバを立てます。
+以前はWordPressを使っていたのですが、今回は軽くて使いやすそうだったのでHugoというフレームワークを使ってサイトを作ります。
+また前回は記事がローカルに保存されていたため、記事の復旧ができなかったりしたので、記事自体はGitHub上に保存するようにします。
+できたもの ・このサイト
+・github
+まだできてないこと・やりたいこと 記事の更新方法 今はラズパイ上のhugoフォルダ内をいじることで記事が更新されるようになっている。
+これをgithubに記事をpushした時にすぐラズパイ側でも記事が更新されるようにしたいGitHub Actionというものをつかえばできそうなのでこれを使う
+見栄え アイコンとかテーマも今回はanankeというものを使ったけどデフォルトのままなので今後いじりたい
+ページの上の方とかにメニューバー的なもの タグみたいなので記事の分類とかできるようにしたい
+記事 書こう!
+　作業ログ 作業ログは今回ブログを作ろうと思った理由の一つで、いままでこういった作業の記録を残していなかったため無駄な時間を使うことがあったりしたので自分用に記録を残していくのだ！
+以下ユーザーは/home/makyi
+Goのインストール 今回サーバにするPCはRaspberry Pi ZeroでCPUのアーキテクチャによってダウンロードするべきファイルが違うらしい。今回のラズパイzeroではarmv6
+ダウンロード curl -O https://dl.google.com/go/go1.16.6.linux-armv6l.tar.gz SHA256チェックサム sha256sum go1.16.6.linux-armv6l.tar.gz これで b1ca342e81897da3f25da4e75ae29b267db1674fe7222d9bfc4c666bcf6fce69 が出力されればおｋ https://golang.org/dl/
+ファイルの展開 sudo tar -C /usr/local -xzf go1.16.6.linux-armv6l.tar.gz パスの追加 .bashrcの最後に
+export PATH=$PATH:/usr/local/go/bin を追加
+hugoのインストール git clone https://github.com/gohugoio/hugo.git cd hugo go install --tags extended 最初SSH接続した状態でインストールをしようとしたが、途中で止まったりした。 しかしSSHではなく直接ディスプレイをつないでインストールしたところ問題なくインストールができた。理由は良く分からなかった。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://mmaakkyyii.com/posts/post1/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2021-07-23T01:10:49+09:00" />
-<meta property="article:modified_time" content="2021-07-23T01:10:49+09:00" />
+<meta property="article:published_time" content="2021-07-26T23:04:48+09:00" />
+<meta property="article:modified_time" content="2021-07-26T23:04:48+09:00" />
 
-<meta itemprop="name" content="Post1">
-<meta itemprop="description" content="test none"><meta itemprop="datePublished" content="2021-07-23T01:10:49+09:00" />
-<meta itemprop="dateModified" content="2021-07-23T01:10:49+09:00" />
-<meta itemprop="wordCount" content="2">
+<meta itemprop="name" content="ブログをつくった">
+<meta itemprop="description" content="はじめに こんにちはマッキーです。ブログ記事を乗せるためのサイトを作りました。
+2年くらい前にRaspberry piでブログサーバを立てていたけど放置してたのですが、もう一度記事が書けそうな場所が欲しくなったのでまたサイトを作りました。
+せっかくmmaakkyyii.comというドメインを取っていたけど何もしないのも流石にもったいないのでまた復活させます。
+やりたかったこと 以前使っていたRaspberry Pi B&#43;を動かそうとしたところUSBポートが一部使えなかったりして、今後使うのも微妙な気がしたので、最近買って放置していたRaspberry Pi Zero上でブログサーバを立てます。
+以前はWordPressを使っていたのですが、今回は軽くて使いやすそうだったのでHugoというフレームワークを使ってサイトを作ります。
+また前回は記事がローカルに保存されていたため、記事の復旧ができなかったりしたので、記事自体はGitHub上に保存するようにします。
+できたもの ・このサイト
+・github
+まだできてないこと・やりたいこと 記事の更新方法 今はラズパイ上のhugoフォルダ内をいじることで記事が更新されるようになっている。
+これをgithubに記事をpushした時にすぐラズパイ側でも記事が更新されるようにしたいGitHub Actionというものをつかえばできそうなのでこれを使う
+見栄え アイコンとかテーマも今回はanankeというものを使ったけどデフォルトのままなので今後いじりたい
+ページの上の方とかにメニューバー的なもの タグみたいなので記事の分類とかできるようにしたい
+記事 書こう!
+　作業ログ 作業ログは今回ブログを作ろうと思った理由の一つで、いままでこういった作業の記録を残していなかったため無駄な時間を使うことがあったりしたので自分用に記録を残していくのだ！
+以下ユーザーは/home/makyi
+Goのインストール 今回サーバにするPCはRaspberry Pi ZeroでCPUのアーキテクチャによってダウンロードするべきファイルが違うらしい。今回のラズパイzeroではarmv6
+ダウンロード curl -O https://dl.google.com/go/go1.16.6.linux-armv6l.tar.gz SHA256チェックサム sha256sum go1.16.6.linux-armv6l.tar.gz これで b1ca342e81897da3f25da4e75ae29b267db1674fe7222d9bfc4c666bcf6fce69 が出力されればおｋ https://golang.org/dl/
+ファイルの展開 sudo tar -C /usr/local -xzf go1.16.6.linux-armv6l.tar.gz パスの追加 .bashrcの最後に
+export PATH=$PATH:/usr/local/go/bin を追加
+hugoのインストール git clone https://github.com/gohugoio/hugo.git cd hugo go install --tags extended 最初SSH接続した状態でインストールをしようとしたが、途中で止まったりした。 しかしSSHではなく直接ディスプレイをつないでインストールしたところ問題なくインストールができた。理由は良く分からなかった。"><meta itemprop="datePublished" content="2021-07-26T23:04:48+09:00" />
+<meta itemprop="dateModified" content="2021-07-26T23:04:48+09:00" />
+<meta itemprop="wordCount" content="205">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Post1"/>
-<meta name="twitter:description" content="test none"/>
+<meta name="twitter:title" content="ブログをつくった"/>
+<meta name="twitter:description" content="はじめに こんにちはマッキーです。ブログ記事を乗せるためのサイトを作りました。
+2年くらい前にRaspberry piでブログサーバを立てていたけど放置してたのですが、もう一度記事が書けそうな場所が欲しくなったのでまたサイトを作りました。
+せっかくmmaakkyyii.comというドメインを取っていたけど何もしないのも流石にもったいないのでまた復活させます。
+やりたかったこと 以前使っていたRaspberry Pi B&#43;を動かそうとしたところUSBポートが一部使えなかったりして、今後使うのも微妙な気がしたので、最近買って放置していたRaspberry Pi Zero上でブログサーバを立てます。
+以前はWordPressを使っていたのですが、今回は軽くて使いやすそうだったのでHugoというフレームワークを使ってサイトを作ります。
+また前回は記事がローカルに保存されていたため、記事の復旧ができなかったりしたので、記事自体はGitHub上に保存するようにします。
+できたもの ・このサイト
+・github
+まだできてないこと・やりたいこと 記事の更新方法 今はラズパイ上のhugoフォルダ内をいじることで記事が更新されるようになっている。
+これをgithubに記事をpushした時にすぐラズパイ側でも記事が更新されるようにしたいGitHub Actionというものをつかえばできそうなのでこれを使う
+見栄え アイコンとかテーマも今回はanankeというものを使ったけどデフォルトのままなので今後いじりたい
+ページの上の方とかにメニューバー的なもの タグみたいなので記事の分類とかできるようにしたい
+記事 書こう!
+　作業ログ 作業ログは今回ブログを作ろうと思った理由の一つで、いままでこういった作業の記録を残していなかったため無駄な時間を使うことがあったりしたので自分用に記録を残していくのだ！
+以下ユーザーは/home/makyi
+Goのインストール 今回サーバにするPCはRaspberry Pi ZeroでCPUのアーキテクチャによってダウンロードするべきファイルが違うらしい。今回のラズパイzeroではarmv6
+ダウンロード curl -O https://dl.google.com/go/go1.16.6.linux-armv6l.tar.gz SHA256チェックサム sha256sum go1.16.6.linux-armv6l.tar.gz これで b1ca342e81897da3f25da4e75ae29b267db1674fe7222d9bfc4c666bcf6fce69 が出力されればおｋ https://golang.org/dl/
+ファイルの展開 sudo tar -C /usr/local -xzf go1.16.6.linux-armv6l.tar.gz パスの追加 .bashrcの最後に
+export PATH=$PATH:/usr/local/go/bin を追加
+hugoのインストール git clone https://github.com/gohugoio/hugo.git cd hugo go install --tags extended 最初SSH接続した状態でインストールをしようとしたが、途中で止まったりした。 しかしSSHではなく直接ディスプレイをつないでインストールしたところ問題なくインストールができた。理由は良く分からなかった。"/>
 
 	
   </head>
@@ -112,13 +188,13 @@
 
     
     
-    <a href="https://twitter.com/share?url=http://mmaakkyyii.com/posts/post1/&amp;text=Post1" class="twitter no-underline" aria-label="share on Twitter">
+    <a href="https://twitter.com/share?url=http://mmaakkyyii.com/posts/post1/&amp;text=%e3%83%96%e3%83%ad%e3%82%b0%e3%82%92%e3%81%a4%e3%81%8f%e3%81%a3%e3%81%9f" class="twitter no-underline" aria-label="share on Twitter">
       <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
 
     </a>
 
     
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://mmaakkyyii.com/posts/post1/&amp;title=Post1" class="linkedin no-underline" aria-label="share on LinkedIn">
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://mmaakkyyii.com/posts/post1/&amp;title=%e3%83%96%e3%83%ad%e3%82%b0%e3%82%92%e3%81%a4%e3%81%8f%e3%81%a3%e3%81%9f" class="linkedin no-underline" aria-label="share on LinkedIn">
       <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
 </svg>
@@ -127,16 +203,127 @@
   </div>
 
 
-      <h1 class="f1 athelas mt3 mb1">Post1</h1>
+      <h1 class="f1 athelas mt3 mb1">ブログをつくった</h1>
       
       
-      <time class="f6 mv4 dib tracked" datetime="2021-07-23T01:10:49+09:00">July 23, 2021</time>
+      <time class="f6 mv4 dib tracked" datetime="2021-07-26T23:04:48+09:00">July 26, 2021</time>
 
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h1 id="test">test</h1>
-<p>none</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h1 id="はじめに">はじめに</h1>
+<p>こんにちはマッキーです。ブログ記事を乗せるためのサイトを作りました。<br>
+2年くらい前にRaspberry piでブログサーバを立てていたけど放置してたのですが、もう一度記事が書けそうな場所が欲しくなったのでまたサイトを作りました。<br>
+せっかくmmaakkyyii.comというドメインを取っていたけど何もしないのも流石にもったいないのでまた復活させます。</p>
+<h1 id="やりたかったこと">やりたかったこと</h1>
+<p>以前使っていたRaspberry Pi B+を動かそうとしたところUSBポートが一部使えなかったりして、今後使うのも微妙な気がしたので、最近買って放置していたRaspberry Pi Zero上でブログサーバを立てます。<br>
+以前はWordPressを使っていたのですが、今回は軽くて使いやすそうだったので<a href="https://gohugo.io/">Hugo</a>というフレームワークを使ってサイトを作ります。<br>
+また前回は記事がローカルに保存されていたため、記事の復旧ができなかったりしたので、記事自体はGitHub上に保存するようにします。</p>
+<h1 id="できたもの">できたもの</h1>
+<p>・<a href="https://mmaakkyyii.com">このサイト</a><br>
+・<a href="https://github.com/mmaakkyyii/MakiBlog">github</a></p>
+<h1 id="まだできてないことやりたいこと">まだできてないこと・やりたいこと</h1>
+<h2 id="記事の更新方法">記事の更新方法</h2>
+<p>今はラズパイ上のhugoフォルダ内をいじることで記事が更新されるようになっている。<br>
+これをgithubに記事をpushした時にすぐラズパイ側でも記事が更新されるようにしたいGitHub Actionというものをつかえばできそうなのでこれを使う</p>
+<h2 id="見栄え">見栄え</h2>
+<p>アイコンとかテーマも今回はanankeというものを使ったけどデフォルトのままなので今後いじりたい</p>
+<h2 id="ページの上の方とかにメニューバー的なもの">ページの上の方とかにメニューバー的なもの</h2>
+<p>タグみたいなので記事の分類とかできるようにしたい</p>
+<h2 id="記事">記事</h2>
+<p>書こう!</p>
+<p>　
+　</p>
+<h1 id="作業ログ">作業ログ</h1>
+<p>作業ログは今回ブログを作ろうと思った理由の一つで、いままでこういった作業の記録を残していなかったため無駄な時間を使うことがあったりしたので自分用に記録を残していくのだ！<br>
+以下ユーザーは/home/makyi</p>
+<h2 id="goのインストール">Goのインストール</h2>
+<p>今回サーバにするPCはRaspberry Pi ZeroでCPUのアーキテクチャによってダウンロードするべきファイルが違うらしい。今回のラズパイzeroではarmv6</p>
+<h3 id="ダウンロード">ダウンロード</h3>
+<pre><code>curl -O https://dl.google.com/go/go1.16.6.linux-armv6l.tar.gz
+</code></pre><h3 id="sha256チェックサム">SHA256チェックサム</h3>
+<pre><code>sha256sum go1.16.6.linux-armv6l.tar.gz
+</code></pre><p>これで <code>b1ca342e81897da3f25da4e75ae29b267db1674fe7222d9bfc4c666bcf6fce69</code> が出力されればおｋ
+<a href="https://golang.org/dl/">https://golang.org/dl/</a></p>
+<h3 id="ファイルの展開">ファイルの展開</h3>
+<pre><code>sudo tar -C /usr/local -xzf go1.16.6.linux-armv6l.tar.gz
+</code></pre><h3 id="パスの追加">パスの追加</h3>
+<p>.bashrcの最後に</p>
+<pre><code>export PATH=$PATH:/usr/local/go/bin
+</code></pre><p>を追加</p>
+<h2 id="hugoのインストール">hugoのインストール</h2>
+<pre><code>git clone https://github.com/gohugoio/hugo.git
+cd hugo
+go install  --tags extended
+</code></pre><p>最初SSH接続した状態でインストールをしようとしたが、途中で止まったりした。
+しかしSSHではなく直接ディスプレイをつないでインストールしたところ問題なくインストールができた。理由は良く分からなかった。</p>
+<h3 id="hugoでサイト作成">hugoでサイト作成</h3>
+<p>ここまでくると普通にhugoのチュートリアルとか通りの操作が普通にできるようになっている。</p>
+<pre><code>mkdir blog
+cd blog
+hugo new site MakiBlog
+cd MakiBlog
+git init
+git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+
+hugo new posts/post1.md
+vi config.toml  -&gt;ここでtheme = &quot;ananke&quot;追加
+</code></pre><p>この状態で</p>
+<pre><code>hugo server -D
+</code></pre><p>でローカルホストにアクセスすれば生成されたサイトが見れる
+また</p>
+<pre><code>hugo
+</code></pre><p>を実行するとpublicというフォルダができてここを公開すればいいというフォルダが完成</p>
+<h2 id="nginxのインストール">Nginxのインストール</h2>
+<p>Nginxを使ってWebサーバが作れる。
+最初はhugoのサーバでも一応実用的なサーバとして使えるみたいだったのでhugoだけで完結できると思ったが、調べたときの参考例が圧倒的に少なかったので諦めた。</p>
+<h3 id="インストール">インストール</h3>
+<pre><code>sudo apt-get install nginx
+</code></pre><h3 id="ポートとかデフォルトのフォルダの変更">ポートとかデフォルトのフォルダの変更</h3>
+<p>デフォルトだとnginxの/var/www/がルートフォルダになっているが、今回はhugoで作ったpublicフォルダをルートフォルダにしたいので、
+/etc/nginx/sites-available/defaultの
+root /var/www/;をroot /home/makyi/blog/MakiBlog/public/;に変更</p>
+<p>この状態で</p>
+<pre><code>sudo /etc/init.d/nginx start
+</code></pre><p>でローカルホストにアクセスすると hugoで生成したサイトが表示できる。
+またこの状態でwifiルーターの設定で自分のグローバルIPをPCのIPアドレスに転送するようにすれば外部からのアクセスができるようになる。</p>
+<h2 id="sslの設定">SSLの設定</h2>
+<h3 id="certbotのインストール">certbotのインストール</h3>
+<pre><code>sudo apt-get install certbot
+</code></pre><h3 id="証明書発行">証明書発行</h3>
+<pre><code>sudo certbot certonly --webroot -w /home/makyi/blog/MakiBlog/public -d mmaakkyyii.com
+</code></pre><p>これで証明書が発行される</p>
+<h3 id="nginxのssl設定">nginxのSSL設定</h3>
+<p>/etc/nginx/site-available/defaultを編集
+HTTPの80ポートに来た場合はHTTPSの方にリダイレクトする設定で
+ssl証明書は先ほど取得した場所を指定する。</p>
+<pre><code>server{
+    listen 80;
+    listen [::]:80;
+    server_name mmaakkyyii.com;
+    return 301 https://mmaakkyyii.com&amp;request_uri;
+}
+
+server {
+    listen 443 ssl;
+    listen [::]:443 ssl;
+    ssl_certificate     /etc/letsencrypt/live/mmaakkyyii.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/mmaakkyyii.com/privkey.pem;
+
+    root /home/makyi/blog/MakiBlog/public/;
+
+    index index.html index.htm index.nginx-debian.html;
+
+    server_name _;
+
+    location / {
+        # First attempt to serve request as file, then
+        # as directory, then fall back to displaying a 404.
+        try_files $uri $uri/ =404;
+    }
+
+}
+</code></pre><p>wifiルータの設定で443ポートに来たアクセスも同様にラズパイのIPアドレスに転送するようにすればHTTPSの接続もできるようになってるはず</p>
 <ul class="pa0">
   
 </ul>

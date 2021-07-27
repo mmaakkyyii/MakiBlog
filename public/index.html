@@ -128,36 +128,31 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/posts/post2/" class="color-inherit dim link">
-            画像テスト
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          画像のテストをするよ ↑ 見れますか？
-        </div>
-          <a href="/posts/post2/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-      <div class="blah w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="/posts/post1/" class="color-inherit dim link">
-            Post1
+            ブログをつくった
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          test none
+          はじめに こんにちはマッキーです。ブログ記事を乗せるためのサイトを作りました。
+2年くらい前にRaspberry piでブログサーバを立てていたけど放置してたのですが、もう一度記事が書けそうな場所が欲しくなったのでまたサイトを作りました。
+せっかくmmaakkyyii.comというドメインを取っていたけど何もしないのも流石にもったいないのでまた復活させます。
+やりたかったこと 以前使っていたRaspberry Pi B+を動かそうとしたところUSBポートが一部使えなかったりして、今後使うのも微妙な気がしたので、最近買って放置していたRaspberry Pi Zero上でブログサーバを立てます。
+以前はWordPressを使っていたのですが、今回は軽くて使いやすそうだったのでHugoというフレームワークを使ってサイトを作ります。
+また前回は記事がローカルに保存されていたため、記事の復旧ができなかったりしたので、記事自体はGitHub上に保存するようにします。
+できたもの ・このサイト
+・github
+まだできてないこと・やりたいこと 記事の更新方法 今はラズパイ上のhugoフォルダ内をいじることで記事が更新されるようになっている。
+これをgithubに記事をpushした時にすぐラズパイ側でも記事が更新されるようにしたいGitHub Actionというものをつかえばできそうなのでこれを使う
+見栄え アイコンとかテーマも今回はanankeというものを使ったけどデフォルトのままなので今後いじりたい
+ページの上の方とかにメニューバー的なもの タグみたいなので記事の分類とかできるようにしたい
+記事 書こう!
+　作業ログ 作業ログは今回ブログを作ろうと思った理由の一つで、いままでこういった作業の記録を残していなかったため無駄な時間を使うことがあったりしたので自分用に記録を残していくのだ！
+以下ユーザーは/home/makyi
+Goのインストール 今回サーバにするPCはRaspberry Pi ZeroでCPUのアーキテクチャによってダウンロードするべきファイルが違うらしい。今回のラズパイzeroではarmv6
+ダウンロード curl -O https://dl.google.com/go/go1.16.6.linux-armv6l.tar.gz SHA256チェックサム sha256sum go1.16.6.linux-armv6l.tar.gz これで b1ca342e81897da3f25da4e75ae29b267db1674fe7222d9bfc4c666bcf6fce69 が出力されればおｋ https://golang.org/dl/
+ファイルの展開 sudo tar -C /usr/local -xzf go1.16.6.linux-armv6l.tar.gz パスの追加 .bashrcの最後に
+export PATH=$PATH:/usr/local/go/bin を追加
+hugoのインストール git clone https://github.com/gohugoio/hugo.git cd hugo go install --tags extended 最初SSH接続した状態でインストールをしようとしたが、途中で止まったりした。 しかしSSHではなく直接ディスプレイをつないでインストールしたところ問題なくインストールができた。理由は良く分からなかった。
         </div>
           <a href="/posts/post1/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
