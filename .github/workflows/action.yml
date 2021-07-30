@@ -26,5 +26,6 @@ jobs:
         run: |
             echo ${VAL}
             ls
+            tree .
         env: 
             VAL: ${{secrets.MAKI_SECRET_VAL}}
