@@ -23,6 +23,6 @@ jobs:
       - name: Build hugo
         run: hugo
       - name: test env
-        run: echo $VAL
+        run: echo ${VAL}
         env: 
             VAL: ${{secrets.MAKI_SECRET_VAL}}
