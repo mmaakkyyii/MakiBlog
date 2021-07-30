@@ -26,6 +26,10 @@ jobs:
         run: |
             echo ${VAL}
             ls
-            tree .
+            sshpass -p "${SSH_PASS}"rsync -auvzP -e "ssh -p ${SSH_PORT}" ./public ${SSH_USER}@${SSH_IP}:
         env: 
+            SSH_PASS: ${{secrets.SSH_PASS}}
+            SSH_PORT: ${{secrets.SSH_PORT}}
+            SSH_USER: ${{secrets.SSH_USER}}
+            SSH_IP :  ${{secrets.SSH_IP}}
             VAL: ${{secrets.MAKI_SECRET_VAL}}
