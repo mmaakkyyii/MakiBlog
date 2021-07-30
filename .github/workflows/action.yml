@@ -19,10 +19,10 @@ jobs:
             sudo dpkg -i hugo_${HUGO_VERSION}_Linux-64bit.deb
             hugo version
         env:
-            HUGO_VERSION: '0.73.0'
+            HUGO_VERSION: '0.87.0'
       - name: Build hugo
         run: hugo
       - name: test env
         run: echo $VAL
         env: 
-            VAL: ${{neko.MAKI_SECRET_VAL}}
+            VAL: ${{secrets.MAKI_SECRET_VAL}}
