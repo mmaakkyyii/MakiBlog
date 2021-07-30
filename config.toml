@@ -1,4 +1,13 @@
 baseURL = "http://mmaakkyyii.com/"
-languageCode = "en-us"
+languageCode = "ja"
 title = "mmaakkyyii site"
-theme = "ananke"
+theme = ["ananke"]
+
+hasCJKLanguage = true
+summaryLength = 120
+
+#staticDir = ["static"]
+
+[params]
+    custom_css = ["/css/maki_css.css"]
+    site_logo = "/image/icon.ico"
