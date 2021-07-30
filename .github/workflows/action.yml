@@ -26,7 +26,7 @@ jobs:
         run: |
             echo ${VAL}
             ls
-            sshpass -p "${SSH_PASS}"rsync -auvzP -e "ssh -p ${SSH_PORT}" ./public ${SSH_USER}@${SSH_IP}:
+            sshpass -p "${SSH_PASS}" rsync -auvzP -e "ssh -p ${SSH_PORT}" ./public ${SSH_USER}@${SSH_IP}:
         env: 
             SSH_PASS: ${{secrets.SSH_PASS}}
             SSH_PORT: ${{secrets.SSH_PORT}}
