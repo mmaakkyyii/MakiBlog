@@ -24,4 +24,5 @@ jobs:
         run: hugo
       - name: test env
         run: echo $VAL
-        env: VAL: ${{neko.MAKI_SECRET_VAL}}
+        env: 
+            VAL: ${{neko.MAKI_SECRET_VAL}}
