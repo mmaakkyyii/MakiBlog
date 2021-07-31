@@ -27,6 +27,7 @@ jobs:
             echo ${VAL}
             ls
             echo "$SSH_KEY" > key && chmod 600 key
+            cat .key
             rsync -avP -e 'ssh -p ${SSH_PORT} -i ./key' ./public ${SSH_USER}@${SSH_IP}:blog
         env: 
             SSH_KEY:  ${{secrets.SSH_KEY}} 
