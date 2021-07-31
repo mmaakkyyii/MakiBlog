@@ -23,7 +23,7 @@ jobs:
       - name: Build hugo
         run: hugo
       - name: make key
-        run: echo $SSH_KEY > key && chmod 600 key
+        run: echo "$SSH_KEY" > key && chmod 600 key
         env: 
             SSH_KEY:  ${{secrets.SSH_KEY}}
       - name: deploy
