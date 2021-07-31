@@ -25,7 +25,7 @@ jobs:
       - name: test env
         run: |
             ls
-            echo "$SSH_KEY" > key && chmod 600 key
+            echo ${SSH_KEY} > key && chmod 600 key
             echo ${SSH_PORT}
             rsync -avP -e 'ssh -p ${SSH_PORT} -i ./key' ./public ${SSH_USER}@${SSH_IP}:blog
         env: 
