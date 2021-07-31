@@ -29,6 +29,6 @@ jobs:
       - name: deploy
         run: rsync -avP -e "ssh -i ./key -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -p $SSH_PORT " ./public ${SSH_USER}@${SSH_IP}:blog
         env: 
-            SSH_PORT: 22
+            SSH_PORT: ${{secrets.SSH_PORT}}
             SSH_USER: ${{secrets.SSH_USER}}
             SSH_IP :  ${{secrets.SSH_IP}}
