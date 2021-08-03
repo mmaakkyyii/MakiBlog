@@ -1,4 +1,4 @@
-baseURL = "http://mmaakkyyii.com/"
+baseURL = "https://mmaakkyyii.com/"
 languageCode = "ja"
 title = "mmaakkyyii site"
 theme = ["ananke"]
