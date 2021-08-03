@@ -2,6 +2,7 @@
 title: "GitHub Actionsでpushした記事をラズパイに投げる"
 date: 2021-07-31T22:07:00+09:00
 draft: false
+categories: ["blog"]
 tags: ["hugo","blog","GitHub Actions"]
 ---
 

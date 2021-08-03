@@ -2,6 +2,7 @@
 title: "myDNSのIP通知の自動化"
 date: 2021-08-03T12:17:00+09:00
 draft: false
+categories: ["blog"]
 tags: ["blog","systemd"]
 ---
 

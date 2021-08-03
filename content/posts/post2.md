@@ -2,6 +2,7 @@
 title: "CSSの追加など"
 date: 2021-07-30T10:30:39+09:00
 draft: false
+categories: ["blog"]
 tags: ["hugo","blog"]
 ---
 # はじめに

@@ -2,7 +2,7 @@
 title: "ブログをつくった"
 date: 2021-07-26T23:04:48+09:00
 draft: false
-categories: ["post"]
+categories: ["blog"]
 tags: ["blog","hugo"]
 ---
 

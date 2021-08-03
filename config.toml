@@ -11,3 +11,31 @@ summaryLength = 120
 [params]
     custom_css = ["/css/maki_css.css"]
     site_logo = "/image/icon.ico"
+
+[menu]
+[[menu.main]]
+identifier = 'home'
+name = 'Home'
+url = '/'
+weight = 100
+
+[[menu.main]]
+identifier = 'about'
+name = 'About'
+url = '/about/'
+weight = 200
+
+[[menu.main]]
+name = 'Blog'
+url = '/posts/'
+weight = 300
+
+[[menu.main]]
+name = 'Tag'
+url = '/tags/'
+weight = 400
+
+[[menu.main]]
+name = 'Category'
+url = '/categories/'
+weight = 500
