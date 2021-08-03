@@ -10,4 +10,9 @@ draft: false
 このブログは[hugo](https://gohugo.io/)で生成され、テーマは[ananke](https://github.com/theNewDynamic/gohugo-theme-ananke)を利用しています。  
 またWebサーバは自宅のRaspberry Pi Zero W上で[nginx](https://nginx.org/)が動いています。  
 
-ここには作ったものや、備忘録などを置いておけるようにしたい。
+ここには作ったものや、備忘録などを置いておけるようにしたい。  
+
+
+
+Twitter : [@mmaakkyyii](https://twitter.com/mmaakkyyii)  
+GitHug : [mmaakkyyii](https://github.com/mmaakkyyii)
