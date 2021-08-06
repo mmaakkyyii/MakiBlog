@@ -6,7 +6,7 @@ theme = ["ananke"]
 hasCJKLanguage = true
 summaryLength = 120
 
-#staticDir = ["static"]
+enableRobotsTXT = false
 
 [params]
     custom_css = ["/css/maki_css.css"]
