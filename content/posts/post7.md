@@ -51,7 +51,7 @@ tags: ["blog","hugo"]
 
 Hugoのテンプレートは公式の  
 https://gohugo.io/templates/introduction/  
-ここに
+ここらへんに説明がある
 
 ### テーマを読み込む
 ```
