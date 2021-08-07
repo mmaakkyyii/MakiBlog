@@ -1,0 +1,4 @@
+User-agent: *
+{{ range .Site.Taxonomies.tags.Alphabetical }}
+Disallow: {{ "/tags/" | relURL }}{{ .Name | urlize }}
+{{ end }}
