@@ -1,0 +1,32 @@
+{{ define "main"}}
+  {{ if eq .Title "Tags"}}
+    <div align="left" style="margin-left:15px">
+      {{ range .Site.Taxonomies.tags.Alphabetical }}
+        <h2> 
+
+          <details>
+            <summary><a href="{{ "/tags/" | relURL }}{{ .Name | urlize }}">{{ .Name }}({{ .Count }})</a></summary>
+              {{ range .Pages.ByPublishDate }}
+              　・<a href ="{{ .Permalink}}"> {{ .Title  }} </a><br>
+              {{ end }}
+          </details>
+        </h2>
+      {{ end }}
+    </div>
+  {{ else if eq .Title "Categories"}}
+    <div align="left" style="margin-left:15px">
+      {{ range .Site.Taxonomies.categories.Alphabetical }}
+       <h2>
+          <details>
+            <summary><a href="{{ "/categories/" | relURL }}{{ .Name | urlize }}">{{ .Name }}({{ .Count }})</a></summary>
+              {{ range .Pages.ByPublishDate }}
+              　・<a href ="{{ .Permalink}}"> {{ .Title  }} </a><br>
+              {{ end }}
+          </details>
+
+       </h2>
+      {{ end }}
+    </div>
+    {{ end }}
+{{ end }}
+
