@@ -8,5 +8,4 @@ tags: ["その他"]
 
 # あああ
 あ
-<p>そして、<code>claat</code>はGoogleが提供している公式ツールだ。<code>claat</code>を使うとGoogle DocからこのCodelabs形式のチュートリアル・ハンズオンを簡単に作成することができる。</p>
--
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lOM6s8NUf5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
