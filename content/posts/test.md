@@ -1,7 +1,7 @@
 ---
 title: "html test"
 date: 2021-08-30T12:00:00+09:00
-draft: false
+draft: true
 categories: ["その他"]
 tags: ["その他"]
 ---
