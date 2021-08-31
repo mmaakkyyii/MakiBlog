@@ -1,11 +1,11 @@
 ---
 title: "html test"
 date: 2021-08-30T12:00:00+09:00
-draft: true
+draft: false
 categories: ["その他"]
 tags: ["その他"]
 ---
 
-# あああ
-あ
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lOM6s8NUf5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+# スライド埋め込みテスト
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT9I70tXBaVusMFW90Ufuduw-cB4vZ405b4BPndT4O6-02nAEQ63SqceKkiTgxlrgqjZGtMOdBBjtM6/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
