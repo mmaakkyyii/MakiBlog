@@ -6,11 +6,18 @@ theme = ["ananke"]
 hasCJKLanguage = true
 summaryLength = 120
 
-enableRobotsTXT = false
+
+#enableRobotsTXT = true
 
 [params]
     custom_css = ["/css/maki_css.css"]
     site_logo = "/image/icon.ico"
+    favicon = "/image/icon.ico"
+    siteStartYear = 2021
+
+[social]
+    twitter = "mmaakkyyii"
+    githug = "mmaakkyyii"
 
 [menu]
 [[menu.main]]
@@ -39,3 +46,8 @@ weight = 400
 name = 'Category'
 url = '/categories/'
 weight = 500
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
