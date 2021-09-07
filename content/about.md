@@ -5,7 +5,7 @@ draft: false
 ---
 
 こんにちはマッキー([@mmaakkyyii](https://twitter.com/mmaakkyyii))です。
-![hi!](/image/icon.jpg)
+<img src="/image/icon.jpg" style="width:200px;">
 
 このブログは[hugo](https://gohugo.io/)で生成され、テーマは[ananke](https://github.com/theNewDynamic/gohugo-theme-ananke)を利用しています。  
 またWebサーバは自宅のRaspberry Pi Zero W上で[nginx](https://nginx.org/)が動いています。  
