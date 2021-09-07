@@ -47,6 +47,11 @@ name = 'Category'
 url = '/categories/'
 weight = 500
 
+[[menu.main]]
+name = 'Works'
+url = '/works/'
+weight = 600
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
