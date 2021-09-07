@@ -15,4 +15,4 @@ draft: false
 
 
 Twitter : [@mmaakkyyii](https://twitter.com/mmaakkyyii)  
-GitHug : [mmaakkyyii](https://github.com/mmaakkyyii)
+GitHub : [mmaakkyyii](https://github.com/mmaakkyyii)
