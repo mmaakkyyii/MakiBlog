@@ -18,6 +18,13 @@ draft: false
 ## 時計
 https://elchika.com/article/184589a5-2820-4a6c-8945-f0de46a2e3c4/
 
+## ブラシレスモータドライバ
+
+## EAGLEで遊ぶ
+https://blog.rogiken.org/blog/2017/10/09/%e5%b7%a5%e5%a4%a7%e7%a5%ad%e5%b1%95%e7%a4%ba%e3%80%8ceagle%e3%81%ae%e5%8f%af%e8%83%bd%e6%80%a7%e3%80%8d/
+
+## ADC
+https://blog.rogiken.org/blog/2018/12/16/adc%e3%81%aa%e3%81%ae%e3%81%a7adc%e3%82%92%e4%bd%9c%e3%81%a3%e3%81%9f/
 # サークル
 
 # ロボコン
