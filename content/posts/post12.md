@@ -29,7 +29,7 @@ Mode
 * Debug : Serial Wire  
 デバッグ用
 * Timebase Source : TIM6  
-RTOSのクロック用。デフォルトのままだとなんかタイマー指定しろって言われるはずTIM6にしているけどどれでも問題ないので機能が少ないタイマーを利用した
+RTOSのクロック用。デフォルトのままだとなんかタイマー指定しろって言われるはずTIM6にしているけどどれでも問題ないので機能が少ないタイマーを利用した。
 ### ETH
 Mode
 * Mode : RMII  
@@ -131,7 +131,7 @@ void StartDefaultTask(void const * argument)
 ```
 
 # PC側のソフト
-とりあえずマイコンからデータが送られているか確認するために[Wireshark](https://forest.watch.impress.co.jp/library/software/wireshark/)というソフトで確認  
+とりあえずマイコンからデータが送られているか確認するために[Wireshark](https://forest.watch.impress.co.jp/library/software/wireshark/)というソフトで確認してみる。  
 ![](../Wireshark.JPG)  
 データの部分で長さ8バイトでプログラムで送っている通りのデータを確認できる。
 
@@ -161,4 +161,4 @@ with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as s: #ソケット作成 
 
 ### 実行結果
 ![](../python_socket_test.JPG)
-マイコンからのデータの送信とPC側でのデータの受信を確認できた
+マイコンからのデータの送信とPC側でのデータの受信を確認できた。
