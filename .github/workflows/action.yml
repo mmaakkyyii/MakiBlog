@@ -21,7 +21,9 @@ jobs:
         env:
             HUGO_VERSION: '0.83.1'
       - name: Build hugo
-        run: hugo
+        run: |
+            HUGO_ENV=production
+            hugo
       - name: make key
         run: echo "$SSH_KEY" > key && chmod 600 key
         env: 
