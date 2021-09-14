@@ -7,7 +7,7 @@ hasCJKLanguage = true
 summaryLength = 120
 
 
-#enableRobotsTXT = true
+enableRobotsTXT = true
 
 [params]
     custom_css = ["/css/maki_css.css"]
