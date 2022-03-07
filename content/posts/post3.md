@@ -54,7 +54,7 @@ rsyncコマンドのオプションは https://www.atmarkit.co.jp/ait/articles/1
 ローカルのtestフォルダをラズパイの~/testと同期する
 
 ## GitHub Actions
-![](../github_actions.JPG)
+![](../img/github_actions.JPG)
 こちらのActionsより今回はSimple workflowを選択
 
 ```yml

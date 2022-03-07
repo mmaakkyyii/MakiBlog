@@ -8,7 +8,7 @@ tags: ["blog","hugo"]
 
 # はじめに
 デフォルトのタグやカテゴリーのページは
-![old_tag.JPG](../old_tag.JPG)
+![old_tag.JPG](../img/old_tag.JPG)
 こんな感じでタグごとに記事の一部が表示される感じになっていて、同時に複数のタグのリンクが見れないのでいい感じにする(語彙力)
 
 # term.html追加
@@ -87,5 +87,5 @@ https://gohugo.io/templates/taxonomy-templates/#taxonomy-methods
 
 # いい感じになった
 大枠のタグとカテゴリーは常に表示するようにして、具体的な記事はhtmlのdetailsタグで表示を隠せるようにした
-![new_tag.JPG](../new_tag.JPG)
+![new_tag.JPG](../img/new_tag.JPG)
 いいかんじ

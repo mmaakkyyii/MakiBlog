@@ -39,6 +39,6 @@ config.tomlのParamsに
 <meta name="ROBOTS" content="INDEX, FOLLOW">
 ```
 となるはず。
-![](../google_search_console.JPG)
+![](../img/google_search_console.JPG)
 これを設定しておけばURLを登録することができる。  
 これで検索に引っかかるようになりますように。

@@ -8,7 +8,7 @@ tags: ["Jetson Nano"]
 
 # はじめに
 NVIDIAのJetson Nano Developer Kitを買いました。
-![](../jetson_nano.jpg)
+![](../img/jetson_nano.jpg)
 # セットアップ
 基本的には公式サイトに従う
 https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit
@@ -48,7 +48,7 @@ sudo reboot
 千石に売っているJetson Nano用のファンをセットする。付属のねじがあるのでこれ単体でJetson Nanoのヒートシンクに固定できる。  
 https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-5L6X
 
-![](../jetson_nano_with_fan.jpg)
+![](../img/jetson_nano_with_fan.jpg)
 これをjetson-fan-ctlというものを使って制御する。
 
 ## はじめに

@@ -31,5 +31,5 @@ sudo goaccess /var/log/nginx/access.log -o /home/maki/accessReport/public/report
 とした。これでよさそう？  
 /accessReport/public/というフォルダはローカルのみで開くために新しく作ったフォルダ。
 アクセスすると
-![](../report.JPG)
+![](../img/report.JPG)
 こんな感じのダッシュボードが見れる。

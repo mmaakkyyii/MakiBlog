@@ -14,7 +14,7 @@ tags: ["STM32","Ethernet"]
 # マイコン側のハードウェア
 今回利用するのは[STM32F769I-DISCO](https://www.st.com/en/evaluation-tools/32f769idiscovery.html)という開発ボード。  
 Ethernet用のペリフェラルを持っているSTM32F769マイコンとEthernetトランシーバー[LAN8742A-CZ-TR](https://www.microchip.com/en-us/product/LAN8742A)とLANコネクタが乗っている。
-![](../F7disco.jpg)
+![](../img/F7disco.jpg)
 
 # マイコン側の設定
 CubeIDEのバージョンは1.7.0を利用した。  
@@ -42,7 +42,7 @@ Ethernet Configuration : PHY Address 0
 
 今回はPHYチップを利用しているので、Advanced Paramaters -> External PHY ConfigurationのPHYにLAN8742A_PHY_ADDRESSとしている(デフォルトがこの値になってるので他のレシーバICを使うときは変える必要がありそう)  
 そしてこのLAN8742Aのデータシート曰く
-![](../LAN8742A_datasheet_3_7_1.JPG)
+![](../img/LAN8742A_datasheet_3_7_1.JPG)
 のようでPHY Addressはデフォルトで0になっているので、マイコン側も基本的にこれに合わせて0にする必要がある。
 
 ### LWPI
@@ -132,7 +132,7 @@ void StartDefaultTask(void const * argument)
 
 # PC側のソフト
 とりあえずマイコンからデータが送られているか確認するために[Wireshark](https://forest.watch.impress.co.jp/library/software/wireshark/)というソフトで確認してみる。  
-![](../Wireshark.JPG)  
+![](../img/Wireshark.JPG)  
 データの部分で長さ8バイトでプログラムで送っている通りのデータを確認できる。
 
 ## Pythonでデータの受信を行う
@@ -160,5 +160,5 @@ with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as s: #ソケット作成 
 原因が良く分かっていないが、一度データを送らないと受信が開始されない。また送る先も正しくマイコンに送らないと受信が始まらない。一度データを送れるようになるとマイコンをリセットしてもLABケーブルの抜き差しをしても、受信はできるため送信は常にできているように思われる(Wiresharkでも常にデータは送られている)ため、やはり受信側に問題がありそう。
 
 ### 実行結果
-![](../python_socket_test.JPG)
+![](../img/python_socket_test.JPG)
 マイコンからのデータの送信とPC側でのデータの受信を確認できた。
