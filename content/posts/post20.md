@@ -6,7 +6,7 @@ categories: ["組み込み"]
 tags: ["STM32","STM32CubeIDE"]
 ---
 
-# 目的
+# はじめに
 STM32CubeIDEのファームウェアがCドライブを圧迫しているのでHDDの方に移動させたくなったので、設定を変えたときの備忘録
 ![](../img/cubeIDE_fw_rep.JPG)
 10GB以上とっててSSDがヤバい
