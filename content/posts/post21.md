@@ -1,5 +1,5 @@
 ---
-title: "STM32のNRSTピンの使い方 NRST_MODEについて"
+title: "STM32のNRSTピンをGPIOとして使う NRST_MODEについて"
 date: 2022-03-12T00:40:38+09:00
 draft: false
 categories: ["組み込み"]
