@@ -8,6 +8,7 @@ tags: ["オタク"]
 
 # これが完成したもぁぱちちゃんペンライトです！
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ojZaF3Ch4rY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+
 画像だと色の強度の偏りを感じるけど肉眼でみると結構綺麗。青色LEDはちょっと暗め。これはしょうがないね。
 
 # 回路とか
