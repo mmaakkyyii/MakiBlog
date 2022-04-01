@@ -7,8 +7,8 @@ draft: false
 ここは今まで作ったものとかを載せていくページ  
 どうやって整理するか考え中  
 画像が乗せやすいのでツイートを他のところに記事とかがあるやつはリンクを貼っている
+<details><summary><font size=8>個人制作</font></summary>
 
-# 個人制作
 ## クローラロボット
 3Dプリンター買ってとりあえずそれらしきもの作ってみた第2弾。TPUフィラメントを使ってクローラー部分を作ってみた。
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">おおおお<br>いい感じ!!!! <a href="https://t.co/md5QoWuvPC">pic.twitter.com/md5QoWuvPC</a></p>&mdash; マッキー (@mmaakkyyii) <a href="https://twitter.com/mmaakkyyii/status/1386714295266803716?ref_src=twsrc%5Etfw">April 26, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -60,13 +60,17 @@ AdCをサークルでやっていたので、AdC(Advent Calendar)でADC(Analog D
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">とりあえずこんな感じになった<br>逐次比較型のADC的なもの <a href="https://t.co/KIAHyFCoEx">pic.twitter.com/KIAHyFCoEx</a></p>&mdash; マッキー (@mmaakkyyii) <a href="https://twitter.com/mmaakkyyii/status/1073846629654921216?ref_src=twsrc%5Etfw">December 15, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 rogy blog [AdCなのでADCを作った](https://blog.rogiken.org/blog/2018/12/16/adc%e3%81%aa%e3%81%ae%e3%81%a7adc%e3%82%92%e4%bd%9c%e3%81%a3%e3%81%9f/)
+</details>
 
-# サークル
+<details><summary><font size=8>サークル(rogy)</font></summary>
+
 ## 工大祭展示など
-電動椅子  
+電動椅子(機械担当)  
 市販の椅子にタイヤをつけて走らせる(動画どっかいった)
+</details>
 
-# ロボコン
+<details><summary><font size=8>ロボコン</font></summary>
+
 ## NHKロボコン(2018,2019)
 ### グレート・ウルトゥー (2019)
 4輪ステアの足回り開発(本戦の機体の制御はしてないけど、そのベース機体の制御担当)  
@@ -91,7 +95,9 @@ rogyblog [F^3RCチーム紹介(MIYAZAKI)](http://titech-ssr.blog.jp/archives/106
 ![](/image/F3RC_robo.jpg)
 ![](/image/F3RC_MD.jpg)
 ![](/image/F3RC_MD2.jpg)
+</details>
+<details><summary><font size=8>高校</font></summary>
 
-## 高校のとき
 * ロボカップレスキュー
 * 水中ロボコン
+</details>
