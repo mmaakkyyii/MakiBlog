@@ -44,11 +44,12 @@ sudo apt install cmake gcc-arm-none-eabi libnewlib-arm-none-eabi libstdc++-arm-n
 ```
 
 ## Raspberry Pi Pico SDKのインストール
-方式はいくつかあるが、今回は```raspi_pico```というフォルダにSDKをgit cloneしてくる
+方式はいくつかあるが、今回は```raspi_pico```というフォルダにSDKをgit cloneしてくる。多分サブモジュール関連も必要なのでこちらもアップデートする。
 ```
 mkdir raspi_pico
 cd raspi_pico
 git clone https://github.com/raspberrypi/pico-sdk.git
+git submodule update --init --recursive
 ```
 
 ## プロジェクトの作成・ビルド
@@ -119,6 +120,19 @@ make hello_world
 ```
 すると/build/hello_world.uf2が生成される。
 
+最終的なフォルダ構成はこのようになっていればおｋのはず
+```
+raspi_pico  
+    ├─pico_test  
+    │   ├─build  
+    │   │   ├─いろいろ  
+    │   │   └─hello_world.uf2  
+    │   ├─CMakeLists.txt  
+    │   ├─hello_world.c  
+    │   └─pico_sdk_import.cmake  
+    └─pico-sdk
+        └─いろいろ
+```
 # 書きこみ
 Raspberry Pi Picoのリセットボタンを押した状態で、USBケーブルでPCと接続すると、ストレージとして認識される。このストレージに先ほど作成したhello_world.uf2をコピーすれば書き込み完了。
 [データシート](https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf)より、
