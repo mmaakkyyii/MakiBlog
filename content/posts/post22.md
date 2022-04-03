@@ -22,6 +22,7 @@ SWDはSWOピンとSWDポートを利用することでリアルタイムにマ�
 
 
 # 使い方
+今回はSTM32CubeIDE1.7.0とNucleo-F446REを使用
 ## SWO有効化設定(CubeMX)
 * SYS-> Mode -> DebugをTrace Asynchronous SWにするとSWOピンが設定される。  
 これをST-LinkであればSWOにあたるピンに接続されていればOK。
