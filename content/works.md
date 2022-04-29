@@ -7,7 +7,7 @@ draft: false
 ここは今まで作ったものとかを載せていくページ  
 どうやって整理するか考え中  
 画像が乗せやすいのでツイートを他のところに記事とかがあるやつはリンクを貼っている
-<details><summary><font size=8>個人制作</font></summary>
+<details><summary><font size=7>個人制作</font></summary>
 
 ## クローラロボット
 3Dプリンター買ってとりあえずそれらしきもの作ってみた第2弾。TPUフィラメントを使ってクローラー部分を作ってみた。
@@ -62,14 +62,14 @@ AdCをサークルでやっていたので、AdC(Advent Calendar)でADC(Analog D
 rogy blog [AdCなのでADCを作った](https://blog.rogiken.org/blog/2018/12/16/adc%e3%81%aa%e3%81%ae%e3%81%a7adc%e3%82%92%e4%bd%9c%e3%81%a3%e3%81%9f/)
 </details>
 
-<details><summary><font size=8>サークル(rogy)</font></summary>
+<details><summary><font size=7>サークル(rogy)</font></summary>
 
 ## 工大祭展示など
 電動椅子(機械担当)  
 市販の椅子にタイヤをつけて走らせる(動画どっかいった)
 </details>
 
-<details><summary><font size=8>ロボコン</font></summary>
+<details><summary><font size=7>ロボコン</font></summary>
 
 ## NHKロボコン(2018,2019)
 ### グレート・ウルトゥー (2019)
@@ -96,7 +96,7 @@ rogyblog [F^3RCチーム紹介(MIYAZAKI)](http://titech-ssr.blog.jp/archives/106
 ![](/image/F3RC_MD.jpg)
 ![](/image/F3RC_MD2.jpg)
 </details>
-<details><summary><font size=8>高校</font></summary>
+<details><summary><font size=7>高校</font></summary>
 
 * ロボカップレスキュー
 * 水中ロボコン
