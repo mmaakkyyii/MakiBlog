@@ -3,7 +3,7 @@ title: "STM32CubeIDEでSWO/SWV (Serial Wire Output/Viewer)を使う"
 date: 2022-04-01T22:20:00+09:00
 draft: false
 categories: ["組み込み"]
-tags: ["STM32","SWD"]
+tags: ["STM32","SWD","STM32CubeIDE"]
 ---
 # STM32の
 # SWDについて
