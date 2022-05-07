@@ -5,7 +5,6 @@ draft: false
 categories: ["組み込み"]
 tags: ["STM32","SWD","STM32CubeIDE"]
 ---
-# STM32の
 # SWDについて
 ここの説明より、  
 http://www.tokudenkairo.co.jp/jtag/adv2018/08.php  
