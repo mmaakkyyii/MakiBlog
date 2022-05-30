@@ -47,7 +47,7 @@ tags: ["3D-printer","ANYCUBIC Mega Zero 2.0","HPフィラメント スーパー�
 # できたもの
 この動画は以前ANYCUBIC純正のTPUフィラメントで作製したベルトのモデルをHPフィラメントで作り直してみました。
 左はHPフィラメント右はTPUフィラメントです。
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZYMMOiDh5T8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{<youtube ZYMMOiDh5T8>}}
 
 TPUフィラメントも柔らかい材質ではあるのですが、HPフィラメントはさらに柔らかくお互いを押し付けるとHPフィラメントのほうが大きく変形していることが分かります。またグリップについても明らかにHPフィラメントの方がグリップ力が出ていました。
 

@@ -7,7 +7,7 @@ tags: ["blog","hugo"]
 ---
 
 # はじめに
-デフォルトのままだとhugoのブログのmarkdown中にHTMLタグを入れても無視されてしまうのでこれを何とかしてHTMLタグを使いたい(YouTubeの埋め込みとかいろいろできるようにしたいので)
+デフォルトのままだとhugoのブログのmarkdown中にHTMLタグを入れても無視されてしまうのでこれを何とかしてHTMLタグを使いたい ~~(YouTubeの埋め込みとかいろいろできるようにしたいので)~~ Youtubeの埋め込みは[shortcodeでできるらしい](/my_cheat_sheet/#youtube)
 
 # HTMLタグの有効化
 config.tomlに
