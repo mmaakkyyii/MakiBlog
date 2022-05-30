@@ -53,6 +53,11 @@ name = 'Works'
 url = '/works/'
 weight = 600
 
+[[menu.main]]
+name = 'Cheat sheet'
+url = '/my_cheat_sheet/'
+weight = 700
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

@@ -3,11 +3,39 @@ title: "Works"
 date: 2021-09-07T11:41:11+09:00
 draft: false
 ---
-
 ここは今まで作ったものとかを載せていくページ  
 どうやって整理するか考え中  
 画像が乗せやすいのでツイートを他のところに記事とかがあるやつはリンクを貼っている
-<details><summary><font size=7>個人制作</font></summary>
+<!-- TOC -->
+
+- [個人制作](#%E5%80%8B%E4%BA%BA%E5%88%B6%E4%BD%9C)
+    - [クローラロボット](#%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%A9%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88)
+    - [レーザカッター](#%E3%83%AC%E3%83%BC%E3%82%B6%E3%82%AB%E3%83%83%E3%82%BF%E3%83%BC)
+    - [ゲーミング鏡餅](#%E3%82%B2%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0%E9%8F%A1%E9%A4%85)
+    - [机の電気をつけるやつ](#%E6%9C%BA%E3%81%AE%E9%9B%BB%E6%B0%97%E3%82%92%E3%81%A4%E3%81%91%E3%82%8B%E3%82%84%E3%81%A4)
+    - [時計をつくる](#%E6%99%82%E8%A8%88%E3%82%92%E3%81%A4%E3%81%8F%E3%82%8B)
+    - [独立二輪ロボット](#%E7%8B%AC%E7%AB%8B%E4%BA%8C%E8%BC%AA%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88)
+    - [秋月FPGA & 秋月フルカラーLEDドットマトリックス](#%E7%A7%8B%E6%9C%88fpga--%E7%A7%8B%E6%9C%88%E3%83%95%E3%83%AB%E3%82%AB%E3%83%A9%E3%83%BCled%E3%83%89%E3%83%83%E3%83%88%E3%83%9E%E3%83%88%E3%83%AA%E3%83%83%E3%82%AF%E3%82%B9)
+    - [モータを回す](#%E3%83%A2%E3%83%BC%E3%82%BF%E3%82%92%E5%9B%9E%E3%81%99)
+    - [EAGLEで遊ぶ](#eagle%E3%81%A7%E9%81%8A%E3%81%B6)
+    - [ADCを作る](#adc%E3%82%92%E4%BD%9C%E3%82%8B)
+- [サークルrogy](#%E3%82%B5%E3%83%BC%E3%82%AF%E3%83%ABrogy)
+    - [工大祭展示など](#%E5%B7%A5%E5%A4%A7%E7%A5%AD%E5%B1%95%E7%A4%BA%E3%81%AA%E3%81%A9)
+- [ロボコン](#%E3%83%AD%E3%83%9C%E3%82%B3%E3%83%B3)
+    - [NHKロボコン2018,2019](#nhk%E3%83%AD%E3%83%9C%E3%82%B3%E3%83%B320182019)
+        - [グレート・ウルトゥー 2019](#%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%88%E3%83%BB%E3%82%A6%E3%83%AB%E3%83%88%E3%82%A5%E3%83%BC-2019)
+        - [ネムコン “シャトルコック・スローイング” 2018](#%E3%83%8D%E3%83%A0%E3%82%B3%E3%83%B3-%E3%82%B7%E3%83%A3%E3%83%88%E3%83%AB%E3%82%B3%E3%83%83%E3%82%AF%E3%83%BB%E3%82%B9%E3%83%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0-2018)
+    - [知能ロボコン2019](#%E7%9F%A5%E8%83%BD%E3%83%AD%E3%83%9C%E3%82%B3%E3%83%B32019)
+    - [関東春ロボコン2017](#%E9%96%A2%E6%9D%B1%E6%98%A5%E3%83%AD%E3%83%9C%E3%82%B3%E3%83%B32017)
+    - [F3RC2016](#f3rc2016)
+- [高校](#%E9%AB%98%E6%A0%A1)
+    - [ロボカップレスキュー](#%E3%83%AD%E3%83%9C%E3%82%AB%E3%83%83%E3%83%97%E3%83%AC%E3%82%B9%E3%82%AD%E3%83%A5%E3%83%BC)
+    - [水中ロボコン](#%E6%B0%B4%E4%B8%AD%E3%83%AD%E3%83%9C%E3%82%B3%E3%83%B3)
+
+<!-- /TOC -->
+
+
+# 個人制作
 
 ## クローラロボット
 3Dプリンター買ってとりあえずそれらしきもの作ってみた第2弾。TPUフィラメントを使ってクローラー部分を作ってみた。
@@ -27,7 +55,7 @@ https://originalnews.nico/294899
 いまでもちゃんと動いて使ってる。スマホとかPCから電気のONOFFが出来てかなり便利
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">机の蛍光灯が付かなくなったのでLEDに変えてブラウザからでも操作できるようにした <a href="https://t.co/01CkgC4h9h">pic.twitter.com/01CkgC4h9h</a></p>&mdash; マッキー (@mmaakkyyii) <a href="https://twitter.com/mmaakkyyii/status/1297164241363820549?ref_src=twsrc%5Etfw">August 22, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-## 時計
+## 時計をつくる
 秋月に売られるようになった8pinのSTM32マイコンをとりあえず使ってみたかった。
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">時計出来た!<br>ジェスチャーで時刻設定もできるようになった <a href="https://t.co/ubcZt0sa3k">pic.twitter.com/ubcZt0sa3k</a></p>&mdash; マッキー (@mmaakkyyii) <a href="https://twitter.com/mmaakkyyii/status/1333593644935176198?ref_src=twsrc%5Etfw">December 1, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -55,21 +83,19 @@ https://elchika.com/article/184589a5-2820-4a6c-8945-f0de46a2e3c4/
 
 rogy blog [工大祭展示「EAGLEの可能性」](https://blog.rogiken.org/blog/2017/10/09/%e5%b7%a5%e5%a4%a7%e7%a5%ad%e5%b1%95%e7%a4%ba%e3%80%8ceagle%e3%81%ae%e5%8f%af%e8%83%bd%e6%80%a7%e3%80%8d/)
 
-## ADC
+## ADCを作る
 AdCをサークルでやっていたので、AdC(Advent Calendar)でADC(Analog Digital Converter)を作ってみたというネタ  
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">とりあえずこんな感じになった<br>逐次比較型のADC的なもの <a href="https://t.co/KIAHyFCoEx">pic.twitter.com/KIAHyFCoEx</a></p>&mdash; マッキー (@mmaakkyyii) <a href="https://twitter.com/mmaakkyyii/status/1073846629654921216?ref_src=twsrc%5Etfw">December 15, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 rogy blog [AdCなのでADCを作った](https://blog.rogiken.org/blog/2018/12/16/adc%e3%81%aa%e3%81%ae%e3%81%a7adc%e3%82%92%e4%bd%9c%e3%81%a3%e3%81%9f/)
-</details>
 
-<details><summary><font size=7>サークル(rogy)</font></summary>
+# サークル(rogy)
 
 ## 工大祭展示など
 電動椅子(機械担当)  
 市販の椅子にタイヤをつけて走らせる(動画どっかいった)
-</details>
 
-<details><summary><font size=7>ロボコン</font></summary>
+# ロボコン
 
 ## NHKロボコン(2018,2019)
 ### グレート・ウルトゥー (2019)
@@ -95,9 +121,10 @@ rogyblog [F^3RCチーム紹介(MIYAZAKI)](http://titech-ssr.blog.jp/archives/106
 ![](/image/F3RC_robo.jpg)
 ![](/image/F3RC_MD.jpg)
 ![](/image/F3RC_MD2.jpg)
-</details>
-<details><summary><font size=7>高校</font></summary>
 
-* ロボカップレスキュー
-* 水中ロボコン
-</details>
+# 高校
+
+## ロボカップレスキュー
+画像略
+## 水中ロボコン
+画像(ry
