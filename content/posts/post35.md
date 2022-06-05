@@ -1,6 +1,6 @@
 ---
 title: "Raspberry Pi PicoでGPIOを使う"
-date: 2022-06-04T16:43:52+09:00
+date: 2022-06-06T0:30:00+09:00
 draft: false
 categories: ["組み込み"]
 tags: ["RP2040"]
