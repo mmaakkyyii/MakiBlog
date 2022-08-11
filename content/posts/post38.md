@@ -11,9 +11,11 @@ tags: ["ROS2", "Jetson Xavier NX","RealSense"]
 
 # JetPack 5.01のダウンロード・OSイメージの書き込み
 適当なPC上での作業  
-JetPack 5.01を以下のリンクからダウンロード   https://developer.nvidia.com/embedded/jetpack-sdk-501dp
-https://developer.nvidia.com/embedded/learn/get-started-jetson-xavier-nx-devkit#write ここのインストールガイドに従ってOSを書き込む。
-SDカードを[SD Memory Card Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)でクイックフォーマットでフォーマットする。
+JetPack 5.01を以下のリンクからダウンロード   
+https://developer.nvidia.com/embedded/jetpack-sdk-501dp
+
+[ここ](https://developer.nvidia.com/embedded/learn/get-started-jetson-xavier-nx-devkit#write) のインストールガイドに従ってOSを書き込む。  
+SDカードを[SD Memory Card Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)でクイックフォーマットでフォーマットする。  
 フォーマットしたのち[Etcher](https://www.balena.io/etcher/)で先ほどダウンロードしたOSイメージを書き込む。
 
 完了したらSDカードをJetsonに刺して準備完了。Jetsonの電源をいれるとUbuntuが起動するようになる。
@@ -71,9 +73,16 @@ source /opt/ros/foxy/setup.bash
 を.bachrcに追加しておく
 
 # RealSenseのROS2 Wrapperのインストール
+https://github.com/IntelRealSense/realsense-ros/tree/ros2-beta
+に従ってインストールする
 ```
 mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src/
+```
+ros2_ws/src/にクローンしてros2-betaブランチにする
+```
+git clone https://github.com/IntelRealSense/realsense-ros.git -b ros2-beta
+cd ~/ros2_ws
 ```
 ```
 sudo apt-get install python3-rosdep -y
@@ -101,9 +110,9 @@ ros2 launch realsense2_camera rs_launch.py
 ```
 rviz2
 ```
-でrvizを起動
-Fixed Frameを```camera_color_frame```にする。
-AddでImageを追加してImage>Topicに```/camera/color/image_raw```
-同様にもう一つImageを追加してImage>Topicに```/camera/depth/image_rect_raw```を追加する。
+でrvizを起動  
+Fixed Frameを```camera_color_frame```にする。  
+AddでImageを追加してImage>Topicを```/camera/color/image_raw```にする。  
+同様にもう一つImageを追加してImage>Topicを```/camera/depth/image_rect_raw```にする。
 ![](../img/ros2_realsense.png)
 これでROS2でRealSenseを使うことができた。
