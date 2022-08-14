@@ -10,6 +10,8 @@ draft: false
     - [表](#%E8%A1%A8)
     - [Tweet](#tweet)
     - [Youtube](#youtube)
+- [SSL証明書](#ssl%E8%A8%BC%E6%98%8E%E6%9B%B8)
+    - [証明書切れたとき](#%E8%A8%BC%E6%98%8E%E6%9B%B8%E5%88%87%E3%82%8C%E3%81%9F%E3%81%A8%E3%81%8D)
 
 <!-- /TOC -->
 
@@ -43,3 +45,8 @@ hugo 特有の[Shortcode](https://gohugo.io/content-management/shortcodes/)と�
 ```
 {{<youtube FbBgSed-JW4>}}
 
+# SSL証明書
+## 証明書切れたとき
+```
+sudo certbot renew --force-renew  
+```
