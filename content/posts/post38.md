@@ -2,7 +2,7 @@
 title: "Jetson Xavier NX(JetPack 5.01)にROS2とRealSense SDKをインストールする"
 date: 2022-08-11T23:54:19+09:00
 draft: false
-categories: ["Jetspm"]
+categories: ["Jetsom"]
 tags: ["ROS2", "Jetson Xavier NX","RealSense"]
 ---
 # 開発環境
