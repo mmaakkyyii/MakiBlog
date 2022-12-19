@@ -33,8 +33,9 @@ colcon build
 ```
 ビルドすると警告がでたけど多分OK
 
-ノードの起動
+USB接続してノードの起動
 ```
+sudo chmod 666 /dev/ttyUSB0
 source install/setup.sh
 ros2 run sipeed_tof_ms_a010 publisher --ros-args -p device:="/dev/ttyUSB0"
 ```
