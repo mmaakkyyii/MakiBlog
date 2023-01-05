@@ -1,6 +1,9 @@
 baseURL = "https://blog.mmaakkyyii.com/"
 languageCode = "ja"
 title = "mmaakkyyii site"
+
+disqusShortname = https-blog-mmaakkyyii-com
+
 theme = ["ananke"]
 
 hasCJKLanguage = true
