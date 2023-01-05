@@ -2,7 +2,7 @@ baseURL = "https://blog.mmaakkyyii.com/"
 languageCode = "ja"
 title = "mmaakkyyii site"
 
-disqusShortname = https-blog-mmaakkyyii-com
+disqusShortname = "https-blog-mmaakkyyii-com"
 
 theme = ["ananke"]
 
