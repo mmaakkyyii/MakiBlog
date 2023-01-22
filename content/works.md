@@ -36,6 +36,9 @@ draft: false
 
 
 # 個人制作
+## 自分で自分の電源をOFFにするヤツ
+[記事](../posts/post45.md)
+<script type="application/javascript" src="https://embed.nicovideo.jp/watch/sm41684203/script?w=640&h=360"></script><noscript><a href="https://www.nicovideo.jp/watch/sm41684203">自分で自分の電源をOFFにするヤツを作ってみた</a></noscript>
 
 ## クローラロボット
 3Dプリンター買ってとりあえずそれらしきもの作ってみた第2弾。TPUフィラメントを使ってクローラー部分を作ってみた。
@@ -105,7 +108,8 @@ Maquinista blog [NHK学生ロボコン2019 結果報告＆振り返り](https://
 ### ネムコン “シャトルコック・スローイング” (2018)
 CR制御担当  
 Maquinista blog [2018年大会](https://maquinista.rogiken.org/2019/12/31/2018%e5%b9%b4%e5%a4%a7%e4%bc%9a/)  
-東工大ニュース [ロボット技術研究会がNHK学生ロボコン2018でベスト8](https://www.titech.ac.jp/news/2018/042011)
+東工大ニュース [ロボット技術研究会がNHK学生ロボコン2018でベスト8](https://www.titech.ac.jp/news/2018/042011)  
+動画 [Youtube](https://youtu.be/C1lznOkIYKU?t=190)
 
 ## 知能ロボコン(2019)
 回路周りと機体の速度制御担当  
