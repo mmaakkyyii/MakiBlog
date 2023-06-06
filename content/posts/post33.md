@@ -228,5 +228,5 @@ sudo systemctl start myDiffPiyo.timer
 sudo systemctl enable myDiffPiyo.timer
 ```
 # こんな感じで動いてくれる(はず)
-{{<tweet 1529473148789219333>}}  
+{{</*tweet 1529473148789219333*/>}} 
 HTMLの変更された行をそのままツイートするのでタグが残ったりしているが、サンプルボイスなど他にも変更される可能性がある部分はあると思うのでこのままにしておきます。

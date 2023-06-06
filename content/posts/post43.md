@@ -18,28 +18,28 @@ tags: ["その他"]
 ## BLDCモータードライバ
 ### v1.0
 電流がうまく読めなかったりした
-{{<tweet 1518641387859628032>}}
+{{<tweet user="mmaakkyyii" id="1518641387859628032">}}
 ## v2.0
 一応電流制御っぽいこともできた
-{{<tweet 1569316885711450113>}}
+{{<tweet user="mmaakkyyii" id="1569316885711450113">}}
 一定トルクを出す
-{{<tweet 1572493353912258561>}}
+{{<tweet user="mmaakkyyii" id="1572493353912258561">}}
 ## トイレ
 ツイッター
-{{<tweet 1521852404719042561>}}
+{{<tweet user="mmaakkyyii" id="1521852404719042561">}}
 ## RP2040モータードライバ
 ### RP2040ブレークアウトボード
 自宅リフローのテスト用
-{{<tweet 1566048374264016896>}}
+{{<tweet user="mmaakkyyii" id="1566048374264016896">}}
 ### v1.0
 マイコン書き込みができなかった()
-{{<tweet 1535568045082431489>}}
+{{<tweet user="mmaakkyyii" id="1535568045082431489">}}
 ### v1.1
 ここでFETのフットプリントが間違ってることに気づく
-{{<tweet 1566103814347689985>}} 
+{{<tweet user="mmaakkyyii" id="1566103814347689985">}} 
 ### v1.2
 やっと動いた→[紹介記事](https://blog.mmaakkyyii.com/posts/post40/)
-{{<tweet 1585274220623253504>}}
+{{<tweet user="mmaakkyyii" id="1585274220623253504">}}
 
 ## もぁぱち関連
 ペンライト、オシロでお絵描きなどなど。
@@ -48,23 +48,23 @@ https://twitter.com/i/events/1505855197649993729
 
 # my new gear
 棚->[記事](https://blog.mmaakkyyii.com/posts/post37/)
-{{<tweet 1539572111269691392>}}
-{{<tweet 1542498331733086208>}}
-{{<tweet 1584067446012399617>}}
+{{<tweet user="mmaakkyyii" id="1539572111269691392">}}
+{{<tweet user="mmaakkyyii" id="1542498331733086208">}}
+{{<tweet user="mmaakkyyii" id="1584067446012399617">}}
 PC  
 ようやく購入GPUを積んでいるのでゲームもできる
-{{<tweet 1598640456946311168>}}
+{{<tweet user="mmaakkyyii" id="1598640456946311168">}}
 電源([DPS5005](https://www.amazon.co.jp/gp/product/B092TBMYHB/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1))  
 会社で流行ってたので自宅にも導入適当に電源が取れるので便利、大きすぎないのもいいですねケースは適当に3Dプリンタで作成
-{{<tweet 1557062705990623234>}}
+{{<tweet user="mmaakkyyii" id="1557062705990623234">}}
 はんだペースト([TS391LT50](https://www.mouser.jp/ProductDetail/Chip-Quik/TS391LT50?qs=1mbolxNpo8eo1ZKoGh5bOQ%3D%3D))  
 これが導入されたことで自宅でもリフローができるようになった。常温で保存していいやつなので冷蔵庫は不要！素晴らしい
-{{<tweet 1565641512842833927>}}
+{{<tweet user="mmaakkyyii" id="1565641512842833927">}}
 ヒートガン  
 問題は使う場所。リフローができるようになったのであまり使わないかも…？
-{{<tweet 1512012019217547265>}}
+{{<tweet user="mmaakkyyii" id="1512012019217547265">}}
 [ラベルライター](https://www.amazon.co.jp/gp/product/B00SA8ROU8/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1)
-{{<tweet 1540648676082585600>}}
+{{<tweet user="mmaakkyyii" id="1540648676082585600">}}
 
 特にツイートしていないけどそのほか買ったもの  
 * [エンジニアの圧着工具](https://www.nejisaurus.engineer.jp/product-page/pa-21-%E7%B2%BE%E5%AF%86%E5%9C%A7%E7%9D%80%E3%83%9A%E3%83%B3%E3%83%81-1)  
@@ -112,7 +112,7 @@ PC
 # 研究…？
 遥か昔の記憶。今年の出来事だったのか…  
 卒業はできた
-{{<tweet 1508388044738494466>}}
+{{<tweet user="mmaakkyyii" id="1508388044738494466">}}
 # 会社
 今年から入社したらしい。  
 研修ブログがインターネットに放出されているけどこれだけをやっているわけではない。普通の開発もしていたりする。  

@@ -6,12 +6,12 @@ draft: false
 目次
 <!-- TOC -->
 
-- [マークダウン](#%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%80%E3%82%A6%E3%83%B3)
-    - [表](#%E8%A1%A8)
-    - [Tweet](#tweet)
-    - [Youtube](#youtube)
-- [SSL証明書](#ssl%E8%A8%BC%E6%98%8E%E6%9B%B8)
-    - [証明書切れたとき](#%E8%A8%BC%E6%98%8E%E6%9B%B8%E5%88%87%E3%82%8C%E3%81%9F%E3%81%A8%E3%81%8D)
+- [マークダウン](#マークダウン)
+  - [表](#表)
+  - [Tweet](#tweet)
+  - [Youtube](#youtube)
+- [SSL証明書](#ssl証明書)
+  - [証明書切れたとき](#証明書切れたとき)
 
 <!-- /TOC -->
 
@@ -33,11 +33,14 @@ hugo 特有の[Shortcode](https://gohugo.io/content-management/shortcodes/)と�
 ちなみにこれを変換しないようにするためには  
 ``` {{</*/*yourshortcode*/*/>}} ```とすればよい([参考](https://discourse.gohugo.io/t/solved-how-to-make-hugo-ignore-shortcode-delimiters-e-g-when-used-in-code-blocks/6045))
 
+2023/06/06追記
+https://blog.foresta.me/posts/fix-tweet-shortcode-warn-hugo-v0_91_0/
+
 ```
-{{</* tweet 1466957251437301761 */>}}
+{{</* tweet user="mmaakkyyii" id="1466957251437301761" */>}}
 ```
 
-{{<tweet 1466957251437301761>}}
+{{<tweet user="mmaakkyyii" id="1466957251437301761">}}
 
 ## Youtube
 ```
