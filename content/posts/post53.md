@@ -3,7 +3,7 @@ title: "MFT2024に出展します！～MA-KINGのCoRE広報戦略について～
 "
 date: 2024-09-19T02:28:38+09:00
 draft: false
-categories: ["イベント"]
+categories: ["イベント","CoRE"]
 tags: ["CoRE","ロボコン","MFT"]
 ---
 こんにちはマッキーです。今週末の9/21,22にMaker Faire Tokyo 2024にCoREのロボットを出展します！([出展情報](https://makezine.jp/event/makers-mft2024/m0174/))  

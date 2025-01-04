@@ -2,7 +2,7 @@
 title: "MFT2024出展しました!出展してどれくらいCoREの宣伝ができたのかまとめ"
 date: 2024-10-09T23:48:28+09:00
 draft: false
-categories: ["イベント"]
+categories: ["イベント","CoRE"]
 tags: ["CoRE","ロボコン","MFT"]
 ---
 
