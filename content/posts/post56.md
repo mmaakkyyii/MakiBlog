@@ -24,7 +24,7 @@ tags: ["CoRE","ロボコン","miniNT新宿"]
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ダメージパネルを認識してカメラを追従させてみました！<a href="https://twitter.com/hashtag/CoREjp?src=hash&amp;ref_src=twsrc%5Etfw">#CoREjp</a> <a href="https://twitter.com/hashtag/CoREjp_MAKING?src=hash&amp;ref_src=twsrc%5Etfw">#CoREjp_MAKING</a> <a href="https://t.co/mcNpOVj57R">pic.twitter.com/mcNpOVj57R</a></p>&mdash; MA-KING (@ma_king_core) <a href="https://twitter.com/ma_king_core/status/1883515701752918386?ref_src=twsrc%5Etfw">January 26, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## アタッカーの静展示
-前日ぎりぎりまで組み立てていたアタッカーの足回りと、射出機構をそのまま置いただけの静展示ですが、CoREのロボット競技を説明するために展示を行いました。
+前日ぎりぎりまで組み立てていたアタッカーの足回りと、射出機構をそのまま置いただけの静展示ですが、CoREのロボット競技を説明するために展示を行いました。[説明用パネル](https://docs.google.com/presentation/d/13tBJorStu8FzdY-Qr3Ys7cIabK0DONb7P6ecTtZQFnY/edit?usp=sharing)なども作成しています。  
 ![](../img/miniNT新宿_booth1.png)
 
 ## ジュニアロボットチームの宣伝チラシの配布
@@ -32,6 +32,8 @@ tags: ["CoRE","ロボコン","miniNT新宿"]
 こちらはJRTの監督の方からチラシを用意していただいてブースで配布を行いました。合計35枚チラシを配布することができました。  
 CoREのポスターもいただいてブースに掲示しました。
 ![](../img/miniNT新宿_booth3.png)
+
+## リスクアセスメント
 
 # 他ブースの感想など
 今回はMA-KINGも含めて5組の出展でした。全てが簡単に見て回ることができて良かったです。それ以外によくMFTとかに出展しているような方も展示を見に来られて詳しい話も結構できたので楽しかったです。
