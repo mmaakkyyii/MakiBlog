@@ -19,8 +19,8 @@ tags: ["CoRE","ロボコン","miniNT新宿"]
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">自分たちで学習させた結果を使って歩けるようになりました！！<a href="https://twitter.com/hashtag/CoREjp?src=hash&amp;ref_src=twsrc%5Etfw">#CoREjp</a><a href="https://twitter.com/hashtag/CoREjp_MAKING?src=hash&amp;ref_src=twsrc%5Etfw">#CoREjp_MAKING</a> <a href="https://t.co/CojMVCrNWe">pic.twitter.com/CojMVCrNWe</a></p>&mdash; MA-KING (@ma_king_core) <a href="https://twitter.com/ma_king_core/status/1882782277236842578?ref_src=twsrc%5Etfw">January 24, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## 画像処理によるダメージパネルのトレースデモ
-以前から開発しているダメージパネルの認識とカメラを動かすジンバルを使ってダメージパネルの方向をカメラを向かせるデモを展示しました。  
-動画だとよくわからないですが、本番用の認識用PCと機体を制御するメインボードと通信をして、トラッキング用のモータ制御等も行っています。あとは機体に乗せて上がれば自動追尾してフリスビーを撃てるようになるはずです。
+以前から開発しているダメージパネルの認識とカメラを動かすジンバルを使ってダメージパネルの方向にカメラを向かせるデモを行いました。  
+動画だとよくわからないですが、本番用の認識用PCと機体を制御するメインボードと通信をして、トラッキング用のモータ制御等も行っています。あとは機体に乗せてあげれば自動追尾してフリスビーを撃てるようになるはずです。
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ダメージパネルを認識してカメラを追従させてみました！<a href="https://twitter.com/hashtag/CoREjp?src=hash&amp;ref_src=twsrc%5Etfw">#CoREjp</a> <a href="https://twitter.com/hashtag/CoREjp_MAKING?src=hash&amp;ref_src=twsrc%5Etfw">#CoREjp_MAKING</a> <a href="https://t.co/mcNpOVj57R">pic.twitter.com/mcNpOVj57R</a></p>&mdash; MA-KING (@ma_king_core) <a href="https://twitter.com/ma_king_core/status/1883515701752918386?ref_src=twsrc%5Etfw">January 26, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## アタッカーの静展示
@@ -29,11 +29,12 @@ tags: ["CoRE","ロボコン","miniNT新宿"]
 
 ## ジュニアロボットチームの宣伝チラシの配布
 [ジュニアロボットチーム](https://scramble-robot.org/detail/junior_robot_team/)(JRT)のメンバー募集のチラシの配布も行いました。
-こちらはJRTの監督の方からチラシを用意していただいてブースで配布を行いました。  
+こちらはJRTの監督の方からチラシを用意していただいてブースで配布を行いました。合計35枚チラシを配布することができました。  
 CoREのポスターもいただいてブースに掲示しました。
 ![](../img/miniNT新宿_booth3.png)
 
 # 他ブースの感想など
+今回はMA-KINGも含めて5組の出展でした。全てが簡単に見て回ることができて良かったです。それ以外によくMFTとかに出展しているような方も展示を見に来られて詳しい話も結構できたので楽しかったです。
 ## やさしいロボット研究所
 ナップという仮眠支援ロボット。トントンしてくれてリラックスすることができるそうです。ちょっと抱いてみましたがちっちゃい生き物みたいでいい感じでした。
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/miniNT%E6%96%B0%E5%AE%BF?src=hash&amp;ref_src=twsrc%5Etfw">#miniNT新宿</a> にてナップ体験中！！ <a href="https://t.co/ftPW40zKVg">pic.twitter.com/ftPW40zKVg</a></p>&mdash; みのんさん🦕Minori Furusawa (@minon_san) <a href="https://twitter.com/minon_san/status/1885532838105412080?ref_src=twsrc%5Etfw">February 1, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -51,6 +52,6 @@ RoboCup@Homeのロボットでテレオペのデモ。話を聞いてみると�
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">新宿マルイにて展示してます！<a href="https://twitter.com/hashtag/miniNT%E6%96%B0%E5%AE%BF?src=hash&amp;ref_src=twsrc%5Etfw">#miniNT新宿</a> <a href="https://t.co/nqqfWRjD5r">pic.twitter.com/nqqfWRjD5r</a></p>&mdash; PyLoT Robotics (@PyLoTRobotics) <a href="https://twitter.com/PyLoTRobotics/status/1885518166581010832?ref_src=twsrc%5Etfw">February 1, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 # 感想
-miniNT新宿は、ある程度機体ができるタイミングでの開催だったのでちょうどよいマイルストーンになったと思います(イベント駆動開発)。またNTのイベントに来るタイプの方にCoREの存在を知らせることができたのもよかったのではないかと思います。  
+miniNT新宿は、ある程度機体ができるタイミングでの開催だったので、CoREの大会に向けてはちょうどよいマイルストーンになったと思います(イベント駆動開発)。またNTのイベントに来るタイプの方にCoREの存在を知らせることができたのもよかったのではないかと思います。  
 その他、ストライダーは長時間運用での不具合を見つけられたりしてよかったです。
 あとは大会に向けて機体を仕上げていくだけなのでこれからも頑張っていきます！！
